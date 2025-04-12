@@ -149,7 +149,7 @@ function initialiserPartie() {
     };
 
     const boutonCacher = document.createElement("button");
-    boutonCacher.textContent = "Recracher mon chiffre";
+    boutonCacher.textContent = "Cacher mon chiffre";
     boutonCacher.onclick = () => {
       chiffres[i].visible = false;
       chiffreEl.textContent = "???";
